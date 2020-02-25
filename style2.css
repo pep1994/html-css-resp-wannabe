@@ -1,0 +1,53 @@
+
+/* #lezioni .row {
+  max-width: 70%;
+} */
+
+/***************** media query ********************/
+
+  /*********** mobile **********/
+
+  @media screen and (max-width: 420px) {
+
+    .row {
+      width: 90%;
+      margin-top: 50px;
+      font-size: 22px;
+    }
+
+    #lezioni .row > .left {
+      margin-bottom: 20px;
+    }
+
+    #lezioni .row > .left, #lezioni .row > .right {
+      float: none;
+      width: 100%;
+      font-size: 22px;
+    }
+
+    #lezioni .row img {
+      width: 90%;
+    }
+
+    h1 {
+      font-size: 35px;
+    }
+
+    h3 {
+      font-size: 27px;
+    }
+
+    #steps .row > .left,
+    #steps .row > .central,
+    #steps .row > .right {
+      float: none;
+      width: 100%;
+      padding-bottom: 5px;
+    }
+
+    #steps .row > .left,
+    #steps .row > .central {
+      margin-bottom: 45px;
+      border-bottom: solid 1px #9A9A9A;
+    }
+  }
